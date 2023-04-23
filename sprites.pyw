@@ -170,7 +170,7 @@ class Player(pg.sprite.Sprite):
         '''makes player jump'''
         if firstCall == True: # if it is the beginning of a jump,
                               # reset variables
-            self.jumpVel = -7.5
+            self.jumpVel = -10
             self.jumpMovement = 0
             self.jumping = True
             
